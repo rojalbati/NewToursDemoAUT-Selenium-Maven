@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139676" started-at="2019-10-24T22:16:20 NPT" finished-at="2019-10-24T22:18:40 NPT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="139676" started-at="2019-10-24T22:16:20 NPT" finished-at="2019-10-24T22:18:40 NPT">
+      <class name="testPackages.TestClass">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testPackages.TestClass@5e853265]" name="setUp" is-config="true" duration-ms="68345" started-at="2019-10-24T22:15:12 NPT" finished-at="2019-10-24T22:16:20 NPT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./src/main/chromedriver.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SmokeTesting()[pri:0, instance:testPackages.TestClass@5e853265]" name="SmokeTesting" duration-ms="139598" started-at="2019-10-24T22:16:20 NPT" description="Smoke Testing: Register, Login, Book and Logout" finished-at="2019-10-24T22:18:40 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SmokeTesting -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testPackages.TestClass@5e853265]" name="teardown" is-config="true" duration-ms="817" started-at="2019-10-24T22:18:41 NPT" finished-at="2019-10-24T22:18:41 NPT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testPackages.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
